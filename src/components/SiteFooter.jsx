@@ -1,6 +1,15 @@
 import SocialIcon from "./SocialIcon";
 import { Link } from "react-router-dom";
 
+const footerBrandingBg =
+  "/assets/images/57561affcc38ffc62a48997b04d89d237ce7080b.png";
+const footerBrandingImage =
+  "/assets/images/8a6541fe9d57ae16681c9d5ee3800432379b4c9e.png";
+const footerBrandingNoise =
+  "/assets/images/8d364d3de1f6a152850ebc8bcdcf963818ffbe31.png";
+const footerEventTitleArt =
+  "/assets/images/42576fa17947cb2a320731f7080802692ba188b2.png";
+
 function getLinkTarget(item) {
   if (item.toLowerCase() === "about") {
     return "/about";
@@ -64,6 +73,22 @@ function SiteFooter({ navLinks, socialLinks, ieeeLogo, logoFallback }) {
       </div>
 
       <div className="footer-branding">
+        <div className="footer-branding-bg" aria-hidden="true">
+          <img
+            src={footerBrandingBg}
+            alt=""
+            className="footer-branding-bg-base"
+          />
+          <img
+            src={footerBrandingImage}
+            alt=""
+            className="footer-branding-bg-image"
+          />
+          <div
+            className="footer-branding-bg-noise"
+            style={{ backgroundImage: `url(${footerBrandingNoise})` }}
+          ></div>
+        </div>
         <div className="site-shell footer-branding-inner">
           <img
             src={ieeeLogo}
@@ -73,7 +98,11 @@ function SiteFooter({ navLinks, socialLinks, ieeeLogo, logoFallback }) {
               e.currentTarget.src = logoFallback;
             }}
           />
-          <h2>IEEE SB PENS</h2>
+          <img
+            src={footerEventTitleArt}
+            alt="IEEE SB PENS"
+            className="hero-title-art footer-event-title-art"
+          />
         </div>
       </div>
     </footer>

@@ -4,43 +4,37 @@ import SiteNav from "../components/SiteNav";
 import { HiSparkles } from "react-icons/hi2";
 
 const aboutHeroBg =
-  "http://localhost:3845/assets/65f0340aeaafec1d71e346a0e3312af754505faf.png";
+  "/assets/images/49a7bf66a956cd1bbc483dbad8ceaf03c1a90bb4.png";
 const aboutHeroNoise =
-  "http://localhost:3845/assets/8d364d3de1f6a152850ebc8bcdcf963818ffbe31.png";
+  "/assets/images/8d364d3de1f6a152850ebc8bcdcf963818ffbe31.png";
 
 const counselorImages = [
   {
     name: "Dr. Emma Parker",
-    image:
-      "http://localhost:3845/assets/644e45379ecc2a1762663d0061fbb5cdd8e2b55c.png",
+    image: "/assets/images/644e45379ecc2a1762663d0061fbb5cdd8e2b55c.png",
   },
   {
     name: "Laura Chang",
-    image:
-      "http://localhost:3845/assets/9d62585d3dce6c482ca3f82aa3fd49f7a47c4230.png",
+    image: "/assets/images/9d62585d3dce6c482ca3f82aa3fd49f7a47c4230.png",
   },
 ];
 
 const executiveBoardImages = [
   {
     name: "John Mitchell",
-    image:
-      "http://localhost:3845/assets/a38b73769bc86de162d9061a82fbeef8867c841e.png",
+    image: "/assets/images/a38b73769bc86de162d9061a82fbeef8867c841e.png",
   },
   {
     name: "Samantha Hayes",
-    image:
-      "http://localhost:3845/assets/200f2b71c6ee3ec9e0e1eabddb099782b7cfbe08.png",
+    image: "/assets/images/200f2b71c6ee3ec9e0e1eabddb099782b7cfbe08.png",
   },
   {
     name: "James Turner",
-    image:
-      "http://localhost:3845/assets/bfe1625b44d2ee3b8d59e588e4eff4878661142b.png",
+    image: "/assets/images/bfe1625b44d2ee3b8d59e588e4eff4878661142b.png",
   },
   {
     name: "Michael Anderson",
-    image:
-      "http://localhost:3845/assets/a00d558e8206f62ba3d3ec904d0c77a620cbaa79.png",
+    image: "/assets/images/a00d558e8206f62ba3d3ec904d0c77a620cbaa79.png",
   },
 ];
 
@@ -49,100 +43,85 @@ const divisionMembers = {
     {
       name: "Dr. Emma Parker",
       role: "Research Mentor",
-      image:
-        "http://localhost:3845/assets/644e45379ecc2a1762663d0061fbb5cdd8e2b55c.png",
+      image: "/assets/images/644e45379ecc2a1762663d0061fbb5cdd8e2b55c.png",
     },
     {
       name: "Samantha Hayes",
       role: "Data Research Lead",
-      image:
-        "http://localhost:3845/assets/200f2b71c6ee3ec9e0e1eabddb099782b7cfbe08.png",
+      image: "/assets/images/200f2b71c6ee3ec9e0e1eabddb099782b7cfbe08.png",
     },
     {
       name: "James Turner",
       role: "AI Research Member",
-      image:
-        "http://localhost:3845/assets/bfe1625b44d2ee3b8d59e588e4eff4878661142b.png",
+      image: "/assets/images/bfe1625b44d2ee3b8d59e588e4eff4878661142b.png",
     },
   ],
   "Human Capital": [
     {
       name: "Laura Chang",
       role: "Talent Development",
-      image:
-        "http://localhost:3845/assets/9d62585d3dce6c482ca3f82aa3fd49f7a47c4230.png",
+      image: "/assets/images/9d62585d3dce6c482ca3f82aa3fd49f7a47c4230.png",
     },
     {
       name: "John Mitchell",
       role: "Training Coordinator",
-      image:
-        "http://localhost:3845/assets/a38b73769bc86de162d9061a82fbeef8867c841e.png",
+      image: "/assets/images/a38b73769bc86de162d9061a82fbeef8867c841e.png",
     },
     {
       name: "Michael Anderson",
       role: "Leadership Coach",
-      image:
-        "http://localhost:3845/assets/a00d558e8206f62ba3d3ec904d0c77a620cbaa79.png",
+      image: "/assets/images/a00d558e8206f62ba3d3ec904d0c77a620cbaa79.png",
     },
   ],
   "Public Relations & Partnership": [
     {
       name: "John Mitchell",
       role: "External Partnership",
-      image:
-        "http://localhost:3845/assets/a38b73769bc86de162d9061a82fbeef8867c841e.png",
+      image: "/assets/images/a38b73769bc86de162d9061a82fbeef8867c841e.png",
     },
     {
       name: "Laura Chang",
       role: "Media Liaison",
-      image:
-        "http://localhost:3845/assets/9d62585d3dce6c482ca3f82aa3fd49f7a47c4230.png",
+      image: "/assets/images/9d62585d3dce6c482ca3f82aa3fd49f7a47c4230.png",
     },
     {
       name: "Dr. Emma Parker",
       role: "Academic Relation",
-      image:
-        "http://localhost:3845/assets/644e45379ecc2a1762663d0061fbb5cdd8e2b55c.png",
+      image: "/assets/images/644e45379ecc2a1762663d0061fbb5cdd8e2b55c.png",
     },
   ],
   "Creative Media & Information": [
     {
       name: "Samantha Hayes",
       role: "Content Strategist",
-      image:
-        "http://localhost:3845/assets/200f2b71c6ee3ec9e0e1eabddb099782b7cfbe08.png",
+      image: "/assets/images/200f2b71c6ee3ec9e0e1eabddb099782b7cfbe08.png",
     },
     {
       name: "James Turner",
       role: "Visual Designer",
-      image:
-        "http://localhost:3845/assets/bfe1625b44d2ee3b8d59e588e4eff4878661142b.png",
+      image: "/assets/images/bfe1625b44d2ee3b8d59e588e4eff4878661142b.png",
     },
     {
       name: "Michael Anderson",
       role: "Media Operations",
-      image:
-        "http://localhost:3845/assets/a00d558e8206f62ba3d3ec904d0c77a620cbaa79.png",
+      image: "/assets/images/a00d558e8206f62ba3d3ec904d0c77a620cbaa79.png",
     },
   ],
   "Web Developer": [
     {
       name: "Michael Anderson",
       role: "Frontend Engineer",
-      image:
-        "http://localhost:3845/assets/a00d558e8206f62ba3d3ec904d0c77a620cbaa79.png",
+      image: "/assets/images/a00d558e8206f62ba3d3ec904d0c77a620cbaa79.png",
     },
     {
       name: "James Turner",
       role: "Fullstack Engineer",
-      image:
-        "http://localhost:3845/assets/bfe1625b44d2ee3b8d59e588e4eff4878661142b.png",
+      image: "/assets/images/bfe1625b44d2ee3b8d59e588e4eff4878661142b.png",
     },
     {
       name: "Samantha Hayes",
       role: "UI Developer",
-      image:
-        "http://localhost:3845/assets/200f2b71c6ee3ec9e0e1eabddb099782b7cfbe08.png",
+      image: "/assets/images/200f2b71c6ee3ec9e0e1eabddb099782b7cfbe08.png",
     },
   ],
 };

@@ -2,9 +2,9 @@ import SiteFooter from "../components/SiteFooter";
 import SiteNav from "../components/SiteNav";
 
 const publicationsHeroBg =
-  "http://localhost:3845/assets/65f0340aeaafec1d71e346a0e3312af754505faf.png";
+  "/assets/images/49a7bf66a956cd1bbc483dbad8ceaf03c1a90bb4.png";
 const publicationsHeroNoise =
-  "http://localhost:3845/assets/8d364d3de1f6a152850ebc8bcdcf963818ffbe31.png";
+  "/assets/images/8d364d3de1f6a152850ebc8bcdcf963818ffbe31.png";
 
 const scientificPublications = [
   {
@@ -31,26 +31,22 @@ const memberWorks = [
   {
     title: "Autonomous Line Follower Robot",
     category: "Embedded System",
-    image:
-      "http://localhost:3845/assets/ac9fa5680397417bd2ad79d7c05f5bde87d6b0ed.png",
+    image: "/assets/images/ac9fa5680397417bd2ad79d7c05f5bde87d6b0ed.png",
   },
   {
     title: "Realtime Attendance with Face Recognition",
     category: "Artificial Intelligence",
-    image:
-      "http://localhost:3845/assets/8247a312896827f67070883a7e68500ba218218f.png",
+    image: "/assets/images/8247a312896827f67070883a7e68500ba218218f.png",
   },
   {
     title: "IEEE SB PENS Organization Dashboard",
     category: "Web Development",
-    image:
-      "http://localhost:3845/assets/363f6b301f345555ecade4184c094c0f816c3d19.png",
+    image: "/assets/images/363f6b301f345555ecade4184c094c0f816c3d19.png",
   },
   {
     title: "Portable Air Quality Sensor Kit",
     category: "Hardware Innovation",
-    image:
-      "http://localhost:3845/assets/e599b44e5bd658d9f92338a1cc08f24f74ea2f07.png",
+    image: "/assets/images/e599b44e5bd658d9f92338a1cc08f24f74ea2f07.png",
   },
 ];
 

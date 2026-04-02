@@ -2,9 +2,9 @@ import SiteFooter from "../components/SiteFooter";
 import SiteNav from "../components/SiteNav";
 
 const newsHeroBg =
-  "http://localhost:3845/assets/65f0340aeaafec1d71e346a0e3312af754505faf.png";
+  "/assets/images/49a7bf66a956cd1bbc483dbad8ceaf03c1a90bb4.png";
 const newsHeroNoise =
-  "http://localhost:3845/assets/8d364d3de1f6a152850ebc8bcdcf963818ffbe31.png";
+  "/assets/images/8d364d3de1f6a152850ebc8bcdcf963818ffbe31.png";
 
 function NewsPage({
   assets,
